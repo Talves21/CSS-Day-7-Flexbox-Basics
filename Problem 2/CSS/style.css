@@ -1,0 +1,21 @@
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    min-height: 400px;
+}
+
+.flexitem{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.flexitem:nth-child(2){
+    background-color: coral;
+}
+
+.flexitem:nth-child(3){
+    background-color: crimson;
+}

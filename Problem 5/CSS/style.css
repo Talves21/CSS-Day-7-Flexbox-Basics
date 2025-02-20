@@ -1,0 +1,36 @@
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card{
+    background-color: aqua;
+}
+
+.card:nth-child(1){
+    background-color: blueviolet;
+}
+
+.card:nth-child(2){
+    background-color: chocolate;
+}
+
+.card:nth-child(3){
+    background-color: deeppink;
+}
+
+.card:nth-child(4){
+    background-color: crimson;
+}
+
+.card:nth-child(5){
+    background-color: hotpink;
+}
+
+.card:nth-child(6){
+    background-color: lightskyblue;
+}
